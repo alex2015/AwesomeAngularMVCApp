@@ -12,9 +12,10 @@ namespace AwesomeAngularMVCApp
 
             bundles.Add(new ScriptBundle("~/bundles/AwesomeAngularMVCApp")
                 .IncludeDirectory("~/Scripts/Controllers", "*.js")
+                .IncludeDirectory("~/Scripts/Factories", "*.js")
                 .Include("~/Scripts/AwesomeAngularMVCApp.js"));
 
-            BundleTable.EnableOptimizations = true;
+            //BundleTable.EnableOptimizations = true;
         }
     }
 }
